@@ -1,5 +1,5 @@
 /**
- * @file    main.cpp (main)
+ * @file    main.cpp 
  * @brief   OFET 3D viewer (shadow toggle added)
  *
  * Keys:
