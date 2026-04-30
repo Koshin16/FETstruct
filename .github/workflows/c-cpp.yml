@@ -16,10 +16,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y build-essential cmake freeglut3-dev libglu1-mesa-dev
-
-      - name: Configure
-        run: cmake -S . -B build
+          sudo apt install -y build-essential freeglut3-dev libglu1-mesa-dev
 
       - name: Build
-        run: cmake --build build
+        run: make
